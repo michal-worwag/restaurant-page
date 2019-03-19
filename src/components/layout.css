@@ -6,10 +6,11 @@
 
 :root {
   --mainOrange: #f15025;
+  --mainYellow: #d2aa5c;
 }
 
 body {
   font-family: "Caveat", cursive;
-  color: white;
-  background: var(--mainOrange);
+  color: black;
+  background: white;
 }
