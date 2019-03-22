@@ -3,13 +3,15 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-import { PageHeader } from "../utils";
+import { PageHeader, Banner } from "../utils";
 import contactImg from "../images/bcg/contactBcg.jpeg";
 
 const ContactPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <PageHeader img={contactImg}>Hello from contact page header</PageHeader>
+    <PageHeader img={contactImg}>
+      <Banner title="Contact us" subtitle={`let's get in touch`} />
+    </PageHeader>
   </Layout>
 );
 
